@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "good morning", "good afternoon"],
+      "responses": ["Hello! Welcome to customer support. How can I help you today?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "track my order", "order status", "delivery update"],
+      "responses": ["Please provide your order ID so I can check the order status."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund policy", "I need a refund", "return my product", "money back"],
+      "responses": ["Refund requests can be submitted within 7 days of purchase with a valid receipt."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I want to complain", "bad service", "problem with my order"],
+      "responses": ["I am sorry to hear that. I can create a support ticket for your complaint."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "thank you", "thanks", "see you"],
+      "responses": ["Thank you for contacting support. Have a great day!"]
+    }
+  ]
+}
