@@ -1,110 +1,77 @@
-# 🤖 AI-Powered Chatbot Development for Customer Support Automation
+---
 
-## 📌 Project Overview
+## 📅 Project Management Approach
 
-This project focuses on the development of an AI-powered chatbot for customer support automation. The chatbot is designed to help businesses respond to common customer questions quickly, accurately, and consistently. It can support users with frequently asked questions, order enquiries, refund information, complaint handling, and general service support.
+This project follows an Agile-based project management approach. Jira is used to create epics, tasks, sprint planning, and progress tracking. GitHub is used to manage project files, branches, commits, and pull requests.
 
-The main purpose of this project is to improve customer service efficiency by reducing manual workload, improving response time, and providing 24/7 support availability.
+The project is divided into the following main phases:
+
+1. Project initiation
+2. Requirement analysis
+3. System design
+4. Chatbot prototype development
+5. Testing and quality assurance
+6. Deployment planning
+7. Final documentation and presentation
 
 ---
 
-## 🎯 Project Objectives
+## ⚠️ Risk Management Summary
 
-The main objective of this project is to develop a chatbot-based customer support solution that can automate repetitive customer service tasks.
+Some key project risks include:
 
-### Specific Objectives
+- Chatbot response accuracy issues
+- Delay in development tasks
+- Lack of team member availability
+- Poor requirement understanding
+- Technical integration problems
+- Data privacy and security concerns
 
-- Identify customer support requirements and common user queries.
-- Design chatbot conversation flows and user interaction paths.
-- Develop a chatbot prototype with basic AI/NLP response handling.
-- Create a simple web-based chatbot interface.
-- Test chatbot accuracy, usability, and response quality.
-- Manage the project using GitHub for version control and Jira for collaboration.
-- Prepare project documentation, risk register, issue log, and change request process.
-
----
-
-## 🧩 Project Scope
-
-### In Scope
-
-- AI-powered chatbot prototype for customer support.
-- FAQ and general enquiry handling.
-- Order status enquiry simulation.
-- Refund and return policy support.
-- Complaint/ticket creation simulation.
-- Web-based chatbot interface.
-- Basic chatbot knowledge base.
-- Testing and documentation.
-- GitHub version control and Jira task tracking.
-
-### Out of Scope
-
-- Full payment gateway integration.
-- Real-time CRM integration.
-- Voice assistant functionality.
-- Mobile application version.
-- Advanced multilingual chatbot support.
-- Fully autonomous human-like AI assistant.
+Risk management activities include risk identification, qualitative risk analysis, risk response planning, issue tracking, and continuous monitoring.
 
 ---
 
-## 🏗️ System Modules
+## 🔄 Change Request Process
 
-The proposed chatbot system includes the following modules:
+All project changes are managed using a formal change request process:
 
-1. **User Interface Module**  
-   Allows customers to type questions and receive chatbot responses.
-
-2. **Chatbot Engine Module**  
-   Processes user messages and matches them with suitable responses.
-
-3. **Knowledge Base Module**  
-   Stores frequently asked questions, intents, and predefined answers.
-
-4. **Ticket Handling Module**  
-   Simulates complaint or support ticket creation when the chatbot cannot solve an issue.
-
-5. **Admin/Update Module**  
-   Allows future updates to chatbot questions, answers, and support categories.
+1. Submit change request.
+2. Record the change in the change log.
+3. Analyse impact on scope, time, cost, and risk.
+4. Approve or reject the change.
+5. Update Jira task and GitHub branch.
+6. Implement the approved change.
+7. Test and document the change.
 
 ---
 
-## 🛠️ Technologies and Tools
+## ✅ Expected Outcomes
 
-| Category | Tool/Technology |
-|---|---|
-| Version Control | GitHub |
-| Collaboration | Jira |
-| Frontend | HTML, CSS, JavaScript |
-| Chatbot Logic | Python / JavaScript |
-| Documentation | Microsoft Word |
-| Planning | Gantt Chart / Jira Sprint Board |
-| Testing | Manual Test Cases |
+At the end of the project, the team expects to deliver:
+
+- A working chatbot prototype.
+- A documented project plan.
+- A clear scope statement.
+- A WBS and Gantt chart.
+- A risk and issue management strategy.
+- A change request management process.
+- GitHub version control evidence.
+- Jira collaboration evidence.
+- Final project report and presentation.
 
 ---
 
-## 📁 Project Folder Structure
+## 👥 Team Members
 
-```text
-ai-customer-support-chatbot/
-│
-├── docs/
-│   ├── project-scope.md
-│   ├── risk-register.md
-│   ├── issue-log.md
-│   └── change-request-process.md
-│
-├── chatbot/
-│   ├── intents.json
-│   └── chatbot_logic.py
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── testing/
-│   └── test-cases.md
-│
-└── README.md
+| Name | Student ID | Role |
+|---|---|---|
+| Member 1 | Student ID | Project Manager / Documentation |
+| Member 2 | Student ID | System Designer |
+| Member 3 | Student ID | Developer |
+| Member 4 | Student ID | Tester / Quality Assurance |
+
+---
+
+## 📌 Project Status
+
+Current Status: **Prototype Development and Testing Stage**
